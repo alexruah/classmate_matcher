@@ -32,13 +32,7 @@ This project is a FastAPI-based server application for managing classes and stud
 
 ### Group Endpoints
 
-- `GET /group/{user_id}/embeddings`: Get embeddings for a specific user
 - `POST /group/groups`: Generate groups for a class based on student embeddings
-
-### Bedrock Endpoints
-
-- `GET /bedrock/{user_id}/embeddings`: Get embeddings for a specific user
-- `POST /bedrock/groups`: Generate groups for a list of users based on their embeddings
 
 ## Usage
 
